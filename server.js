@@ -15,9 +15,9 @@ app.get('/article-one' , function(req,res) {
     res.send('Article one requested and will be served');
 });
 
-app.get('/abcd' , function(req,res) {
+app.get('/ankus' , function(req,res) {
 
-    res.send(path.join(__dirname, 'ui', 'abcd.html'));
+    res.send(path.join(__dirname, 'ui', 'ankus.htmml'));
 });
 
 
