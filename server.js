@@ -17,7 +17,7 @@ app.get('/article-one' , function(req,res) {
 
 app.get('/ankus' , function(req,res) {
 
-    res.send(path.join(__dirname, 'ui', 'ankus.htmml'));
+    res.send(path.join(__dirname, 'ui', 'ankus.html'));
 });
 
 
